@@ -1,0 +1,23 @@
+{
+  "name": "my-todo-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["todo", "express", "sequelize", "nodemailer"],
+  "author": "Kumaralingam S",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.5",
+    "sequelize": "^6.6.2",
+    "mysql2": "^2.2.5"  
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  },
+  "description": "A simple ToDo application with Express, Sequelize, and Nodemailer"
+}
